@@ -2,14 +2,9 @@
 
 List<string> answers = new List<string>();// Lyckas verkligen inte läsa data ur denna, förväntade mig något som answers[i] men gick ej. 
 
-
-int index = 0;
 foreach (string ask in questions) {
     Console.WriteLine(ask);
-    // answers[index] = ;
-    // if (ask == questions[2] && )
     answers.Add(Console.ReadLine());
-    index = index++;
 }
 
 
